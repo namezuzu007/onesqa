@@ -1,0 +1,32 @@
+/* Vision Single Page*/
+.single-page-block >* hr{height: 5px; width: 100px;}
+.single-page-block__icon-box{margin: 1.5rem 0;}
+.single-page-block__icon-box> .icon-box{padding: 1rem 1rem 5rem 1rem;}
+.single-page-block__icon-box> .icon-box:not(:first-child){box-shadow: -43px 4px 50px -40px rgba(0,0,0,0.06);
+    -webkit-box-shadow: -43px 4px 50px -40px rgba(0,0,0,0.06);
+    -moz-box-shadow: -43px 4px 50px -40px rgba(0,0,0,0.06); }
+.vision-border-box__1{border:1px solid transparent}
+.vision-border-box__2{border:1px solid transparent}
+
+.vision-border-box__1 >* h3:first-child{transform: translateY(-30px);}
+
+/*Amicable - Access*/ 
+.border-right__card >* .text-wrapper{border-left: 3px solid transparent; padding: 0 1rem;}
+.card.download-card{border-radius: 0;border: none;}
+.card.download-card >* .file-date > div > p:first-child{margin-right: 10px; border-right:1px solid #000;padding: 3.5px 10px !important;}
+.card.download-card:hover >* .file-name{color:#0A2471}
+.card.download-card:hover{background-color: #EAEAEA;}
+.card.download-card >* .file-date > div > p{color:#9F9F9F}
+.card.download-card >* .file-date > div > a{color:#9F9F9F}
+.card.download-card >* .file-date > div > a > i{margin-right: 10px;}
+
+
+.card.download-card:hover >* .file-date > div > p{color:#0A2471}
+.card.download-card:hover >* .file-date > div > a{color:#0A2471}
+
+
+/*Strategic*/
+.card.strategic-card{border-radius: 0;border:none;min-height: 730px;}
+
+.card.strategic-card > .strategic-card__tag{position: absolute;padding: 0.5rem 4rem;margin-top: -20px;}
+.card.strategic-card >* ul > li {list-style-type :square ;}

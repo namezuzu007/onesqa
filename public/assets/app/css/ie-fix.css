@@ -1,0 +1,18 @@
+
+/* Global Search */
+@media screen and (-ms-high-contrast:active), (-ms-high-contrast:none){
+    .global-search-container{display:none;}
+    .global-search-container.active{display:block;}
+}
+
+/* Quick Tab */
+@media screen and (-ms-high-contrast:active), (-ms-high-contrast:none){
+    .quick-tab .tabs{display:block;}
+    .quick-tab .tabs.inactive{display:none;}
+}
+
+/* Popup Container */
+@media screen and (-ms-high-contrast:active), (-ms-high-contrast:none){
+    .popup-container{display:none;}
+    .popup-container.active{display:none;}
+}
